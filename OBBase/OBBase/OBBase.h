@@ -15,3 +15,4 @@
 #import <IQKeyboardManager/IQUITextFieldView+Additions.h>
 #import <IQKeyboardManager/IQUIScrollView+Additions.h>
 #import <IQKeyboardManager/IQKeyboardManager.h>
+#import <IQKeyboardManager/IQUIView+IQKeyboardToolbar.h>
