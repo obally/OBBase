@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>HandyFrame.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>IQKeyboardManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,12 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>586F2DFA9BDCC6675C2546793A69E5CC</key>
+		<key>4573ABD7A21A22281DDEE651E61D4E7D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>96282EDE438255A5E69C9A66456478B7</key>
+		<key>586F2DFA9BDCC6675C2546793A69E5CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,7 +87,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E7F1745EA83E58300FA3C37368752D43</key>
+		<key>BAE53AD0B7382177F4D30E0299A670EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FEDA0BAB8686830BB20927D4ACDA8A1B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
