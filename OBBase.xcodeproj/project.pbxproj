@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B004DC43970C1E27D3EDA20 /* libPods-OBBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AE336AF6A592E974615AFF /* libPods-OBBase.a */; };
 		2B6278591EA5A9BC00FC9838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6278581EA5A9BC00FC9838 /* main.m */; };
 		2B62785C1EA5A9BC00FC9838 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B62785B1EA5A9BC00FC9838 /* AppDelegate.m */; };
 		2B62785F1EA5A9BC00FC9838 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B62785E1EA5A9BC00FC9838 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183E1A9AC8EC6C11318B89BD /* Pods-OBBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-OBBase/Pods-OBBase.release.xcconfig"; sourceTree = "<group>"; };
 		2B6278541EA5A9BC00FC9838 /* OBBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6278581EA5A9BC00FC9838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B62785A1EA5A9BC00FC9838 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +53,9 @@
 		2B6278781EA5A9BC00FC9838 /* OBBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B62787C1EA5A9BC00FC9838 /* OBBaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBBaseUITests.m; sourceTree = "<group>"; };
 		2B62787E1EA5A9BC00FC9838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B62788B1EA5AA5E00FC9838 /* OBBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBBase.h; sourceTree = "<group>"; };
+		CC84623CB189B7B024EABAE7 /* Pods-OBBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OBBase/Pods-OBBase.debug.xcconfig"; sourceTree = "<group>"; };
+		F8AE336AF6A592E974615AFF /* libPods-OBBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OBBase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B004DC43970C1E27D3EDA20 /* libPods-OBBase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,8 @@
 				2B6278701EA5A9BC00FC9838 /* OBBaseTests */,
 				2B62787B1EA5A9BC00FC9838 /* OBBaseUITests */,
 				2B6278551EA5A9BC00FC9838 /* Products */,
+				8BA55C09A6A9487EE83DFEA4 /* Pods */,
+				D5FFD23B439897EC2B16F6B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +109,7 @@
 		2B6278561EA5A9BC00FC9838 /* OBBase */ = {
 			isa = PBXGroup;
 			children = (
+				2B62788A1EA5AA5000FC9838 /* OBBase */,
 				2B62785A1EA5A9BC00FC9838 /* AppDelegate.h */,
 				2B62785B1EA5A9BC00FC9838 /* AppDelegate.m */,
 				2B62785D1EA5A9BC00FC9838 /* ViewController.h */,
@@ -140,6 +149,31 @@
 			path = OBBaseUITests;
 			sourceTree = "<group>";
 		};
+		2B62788A1EA5AA5000FC9838 /* OBBase */ = {
+			isa = PBXGroup;
+			children = (
+				2B62788B1EA5AA5E00FC9838 /* OBBase.h */,
+			);
+			path = OBBase;
+			sourceTree = "<group>";
+		};
+		8BA55C09A6A9487EE83DFEA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC84623CB189B7B024EABAE7 /* Pods-OBBase.debug.xcconfig */,
+				183E1A9AC8EC6C11318B89BD /* Pods-OBBase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5FFD23B439897EC2B16F6B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8AE336AF6A592E974615AFF /* libPods-OBBase.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B6278811EA5A9BC00FC9838 /* Build configuration list for PBXNativeTarget "OBBase" */;
 			buildPhases = (
+				86214FA60F5092DC968B1CB1 /* [CP] Check Pods Manifest.lock */,
 				2B6278501EA5A9BC00FC9838 /* Sources */,
 				2B6278511EA5A9BC00FC9838 /* Frameworks */,
 				2B6278521EA5A9BC00FC9838 /* Resources */,
+				BA7F240113BBD770725E100C /* [CP] Embed Pods Frameworks */,
+				B6E4CABCE6932F4150CC45FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +307,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86214FA60F5092DC968B1CB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6E4CABCE6932F4150CC45FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OBBase/Pods-OBBase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA7F240113BBD770725E100C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OBBase/Pods-OBBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B6278501EA5A9BC00FC9838 /* Sources */ = {
@@ -425,6 +510,7 @@
 		};
 		2B6278821EA5A9BC00FC9838 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC84623CB189B7B024EABAE7 /* Pods-OBBase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H9BU355MET;
@@ -437,6 +523,7 @@
 		};
 		2B6278831EA5A9BC00FC9838 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183E1A9AC8EC6C11318B89BD /* Pods-OBBase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H9BU355MET;
@@ -516,6 +603,7 @@
 				2B6278831EA5A9BC00FC9838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B6278841EA5A9BC00FC9838 /* Build configuration list for PBXNativeTarget "OBBaseTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +612,7 @@
 				2B6278861EA5A9BC00FC9838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B6278871EA5A9BC00FC9838 /* Build configuration list for PBXNativeTarget "OBBaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +621,7 @@
 				2B6278891EA5A9BC00FC9838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
