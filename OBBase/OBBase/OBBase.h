@@ -14,3 +14,4 @@
 #import <MJExtension/MJExtension.h>
 #import <IQKeyboardManager/IQUITextFieldView+Additions.h>
 #import <IQKeyboardManager/IQUIScrollView+Additions.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
