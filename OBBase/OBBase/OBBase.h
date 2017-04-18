@@ -12,3 +12,5 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <MBProgressHUD/MBProgressHUD.h>
 #import <MJExtension/MJExtension.h>
+#import <IQKeyboardManager/IQUITextFieldView+Additions.h>
+#import <IQKeyboardManager/IQUIScrollView+Additions.h>
