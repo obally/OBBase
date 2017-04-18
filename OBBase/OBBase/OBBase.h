@@ -16,5 +16,5 @@
 #import <IQKeyboardManager/IQUIScrollView+Additions.h>
 #import <IQKeyboardManager/IQKeyboardManager.h>
 #import <IQKeyboardManager/IQUIView+IQKeyboardToolbar.h>
-#import <HandyFrame/UIView+LayoutMethods.h>
+#import "UIView+LayoutMethods.h"
 
