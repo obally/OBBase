@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MGJRouter.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -53,11 +58,6 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4573ABD7A21A22281DDEE651E61D4E7D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,7 +92,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FEDA0BAB8686830BB20927D4ACDA8A1B</key>
+		<key>CE7ED3798AC0899BBFD0C9C2CC21981B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC10DD48D29320A239FF5AD61E5B54C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8529FF064A990AE26890D639A0FBB9B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
